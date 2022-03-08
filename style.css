@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-color: rgb(12, 94, 133);
+}
+
+.navbar {
+  padding-top: 20px !important;
+}
+
+.nav-item {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 13px;
+  padding: 0, 0, 5px, 0;
+  display: unset;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navbar-toggler-icon {
+  font-size: 22px !important;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: none !important;
+  padding: initial !important;
+  background-color: #fff !important;
+}
+
+.active-home {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #fff;
+}
+.p {
+}
+.banner {
+  margin-top: 8%;
+  color: #fff;
+}
+.banner .p {
+  margin: 50px 0 30px;
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.banner img {
+  max-height: 450px;
+}
+
+.banner a {
+  display: inline-block;
+  width: 150px;
+  padding: 12px;
+  background: rgb(84, 12, 216);
+  text-decoration: none !important;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.banner a:hover {
+  color: #fff;
+}
+.express-btn {
+  background-color: #fff !important;
+  color: #000 !important;
+  margin-right: 10px;
+}
+
+/* **********server******** */
+
+.server {
+  margin: 70px 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+.subtitle {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 15px !important;
+}
+
+.server-box {
+  padding: 0 35px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.server-box img {
+  width: 100px;
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+.server-box h4 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.server-box p {
+  font-size: 14px;
+  color: #808080;
+}
+
+.server-box:hover {
+  background: #39c0ff;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 15px 15px 5px rgb(12, 94, 133);
+}
+.server-box:hover p {
+  color: #fff;
+}
+
+/* featuer */
+
+.feature {
+  margin: 200px;
+}
+
+.feature img {
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+.feature h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  line-height: 50px;
+}
+.feature p {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  color: #808080;
+  line-height: 20px;
+}
+
+.feature a {
+  display: block;
+  padding: 15px 10px;
+  background: #696969;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+}
+
+.feature a:hover {
+  box-shadow: 0 9px 9px 1px rgba(160, 11, 11, 0.5);
+  color: aqua;
+}
+
+/* review */
+
+.review {
+  margin: 100px 0;
+}
+
+.carousel-inner img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  text-align: center;
+  height: 450px;
+}
+
+.carousel-caption {
+  z-index: -1;
+  box-shadow: 0 0 15px 1px rgba(163, 166, 223, 0.5);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin: -200px;
+}
+.carousel-caption h5 {
+  margin: 55px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.carousel-caption small {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #000 !important;
+}
+.carousel-caption p {
+  text-align: center;
+  padding: 0 50px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.carousel-indicators button {
+  background-color: #6900d1 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel-item {
+    height: 450px;
+  }
+  .carousel-caption {
+    margin: 0 10px 50px 10px;
+    left: 0 !important;
+    right: 0 !important;
+  }
+}
+
+/* footer */
+
+.footer {
+  background: #000;
+  padding-top: 5px;
+}
+.footer h2 {
+  color: #fff;
+  font-weight: 600;
+  margin: 70px 0;
+}
+
+.footer input {
+  width: 40%;
+  background: transparent;
+  outline: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+::placeholder {
+  color: #efefef;
+  font-size: 13px;
+}
+
+.footer button {
+  padding: 6px;
+  width: 180px;
+  margin: auto;
+  display: block;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 20px;
+  background: transparent;
+}
+.footer small {
+  display: block;
+  font-size: 14px;
+  padding: 70px;
+  color: #fff;
+}
